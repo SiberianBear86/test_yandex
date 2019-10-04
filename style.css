@@ -1,0 +1,143 @@
+body {
+	color: #4a4545;
+	font: 16px Tahoma;
+	background-color: #f8f8f8;
+	margin-left: 35%;	
+	margin-right: 35%;
+	height: 560px;
+	width: 405px;
+}
+html{
+	background-color: black;
+}
+.content{
+	margin-left: 4%;
+}
+h1{
+	bottom: 20px;
+	font: 20px Tahoma;
+}
+h2{
+	font: 38px Tahoma;
+	text-align: justify;
+	}
+
+h4{
+	font: 21px Tahoma;
+}
+.cc{ 
+	font: 10px Tahoma;
+	display:flex;	
+}
+
+.footer{
+	display:flex;
+	width:500px;
+	height: 200px;
+}
+
+p{
+	font: 9px Tahoma;
+}
+
+.rectangle{
+	width: 65px;
+	height: 70px;
+	background-color: black;
+	margin-top:73px;
+	margin-left: 5px;
+}
+
+.circle{
+	width: 125px;
+	height: 125px;
+	background-color: #f1cf2f;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: -10px;
+}
+
+.triangle-right{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #c5241c;
+	border-bottom: 25px solid transparent;
+	margin-top: 23px;
+	margin-left: -40px;
+}
+
+.hexagon {
+margin: 20px 0; 
+width: 40px; 
+height: 20px;
+background: #c5241c;
+position: relative;
+margin-top: 110px;
+margin-left: -5px;
+transform: rotate(-90deg);
+}
+.hexagon:before, 
+.hexagon:after {
+content: "";
+width: 0; 
+height: 0;
+position: absolute; 
+left: 0;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+}
+.hexagon:before {
+top: -15px;
+border-bottom: 15px solid #c5241c;
+}
+.hexagon:after {
+bottom: -15px;
+border-top: 15px solid #c5241c;
+}
+
+.trapeze1 {
+height: 0; 
+width: 40px;
+border-bottom: 70px solid #f1cf2f;
+border-left: 0px solid transparent;
+border-right: 35px solid transparent;
+transform: rotate(-153deg);
+margin-left: -17px;
+margin-top: 60px;
+}
+
+.trapeze2 {
+height: 0; 
+width: 40px;
+border-bottom: 30px solid #f1cf2f;
+border-left: 0px solid transparent;
+border-right: 35px solid transparent;
+transform: rotate(40deg);
+margin-left: -7px;
+margin-top: 100px;
+}
+
+.pentagon {
+    position: relative;
+    width: 50px;
+    border-width: 40px 9px 0;
+    border-style: solid;
+    border-color: #c5241c transparent;
+	margin-bottom: 85px;
+	transform: rotate(-174deg);
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -65px;
+    left: -10px;
+    border-width: 0 34px 25px;
+    border-style: solid;
+    border-color: transparent transparent #c5241c;
+}
+
+
+
